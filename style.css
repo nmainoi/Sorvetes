@@ -164,8 +164,10 @@ footer {
     height: 99%;
      border-radius: 9px; 
   }
-  main{
+  .page{
     position: relative;
+  }
+  main{
     max-height: 60rem;
     grid-template-areas: "A B";
   }
@@ -180,7 +182,7 @@ footer {
    opacity: 0;
   }  
 
-  /* footer {
+  footer {
     opacity: 1;
     position: absolute;
     font-family: 'Open Sans';
@@ -193,10 +195,10 @@ display: flex;
 align-items: center;
 justify-content: center;
   color: #4A4E69;
-  bottom: -4rem;
+  bottom: 0;
   width: 100%;
   max-width: 100rem;
-    } */
+    }
 }
 @media (min-width: 1050px) {
 
